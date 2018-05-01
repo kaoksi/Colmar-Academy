@@ -61,7 +61,7 @@ header {
 
 nav span {
   padding: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 nav a {
@@ -114,6 +114,12 @@ nav span:last-child {
 
   .mobile-navigation img {
     max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav span {
+    font-size: 0.875rem;
   }
 }
 
@@ -346,7 +352,7 @@ nav span:last-child {
 .course {
   margin: 1rem;
   background-color: white;
-  width: 30%;
+  width: 29%;
   min-height: 300px;
   min-width: 250px;
   flex-grow: 1;
