@@ -334,7 +334,7 @@ nav span:last-child {
   background-color: #d9d9d9;
 }
 .start-learning .container {
-  padding: 2rem 3.5rem;
+  padding: 2rem 0;
   display: block;
 }
 
@@ -344,6 +344,7 @@ nav span:last-child {
 }
 
 .courses {
+  padding: 0 3.5rem;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
